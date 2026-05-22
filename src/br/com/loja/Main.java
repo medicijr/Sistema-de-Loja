@@ -1,12 +1,5 @@
 package br.com.loja;
-/*
-testa
-├── cria 2 ProdutoFisico e 2 ProdutoDigital
-├── adiciona numa List<Produto>
-├── percorre e chama exibirDetalhes() de cada um
-├── se for ProdutoFisico → imprime o frete
-└── se for ProdutoDigital → gera o link
- */
+
 import br.com.loja.model.Produto;
 import br.com.loja.model.ProdutoDigital;
 import br.com.loja.model.ProdutoFisico;

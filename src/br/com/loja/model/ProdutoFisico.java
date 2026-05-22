@@ -1,22 +1,5 @@
 package br.com.loja.model;
-/*
-ProdutoFisico (filha de Produto)
-├── atributo: peso
-├── método: exibirDetalhes() — sobrescreve com peso
-└── método: calcularFrete() — retorna preco * 0.1
 
-ProdutoDigital (filha de Produto)
-├── atributo: tamanhoMb
-├── método: exibirDetalhes() — sobrescreve com tamanhoMb
-└── método: gerarLink() — imprime "Link gerado para: " + nome
-
-testa
-├── cria 2 ProdutoFisico e 2 ProdutoDigital
-├── adiciona numa List<Produto>
-├── percorre e chama exibirDetalhes() de cada um
-├── se for ProdutoFisico → imprime o frete
-└── se for ProdutoDigital → gera o link
- */
 public class ProdutoFisico extends Produto{
     private double peso;
 

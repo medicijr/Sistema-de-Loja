@@ -1,18 +1,5 @@
 package br.com.loja.model;
 
-/*
-ProdutoDigital (filha de Produto)
-├── atributo: tamanhoMb
-├── método: exibirDetalhes() — sobrescreve com tamanhoMb
-└── método: gerarLink() — imprime "Link gerado para: " + nome
-
-testa
-├── cria 2 ProdutoFisico e 2 ProdutoDigital
-├── adiciona numa List<Produto>
-├── percorre e chama exibirDetalhes() de cada um
-├── se for ProdutoFisico → imprime o frete
-└── se for ProdutoDigital → gera o link
- */
 public class ProdutoDigital extends Produto {
     private int tamanhoMb;
 
