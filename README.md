@@ -12,15 +12,15 @@ Sistema de loja desenvolvido em Java para praticar os 4 pilares da Orientação 
 
 ## 🗂️ Estrutura do projeto
 
-src/
-└── br/
-└── com/
-└── loja/
-├── model/
-│   ├── Produto.java
-│   ├── ProdutoFisico.java
-│   └── ProdutoDigital.java
-└── Main.java
+    src/
+    └── br/
+        └── com/
+            └── loja/
+                ├── model/
+                │   ├── Produto.java
+                │   ├── ProdutoFisico.java
+                │   └── ProdutoDigital.java
+                └── Main.java
 
 ## ⚙️ Funcionalidades
 
