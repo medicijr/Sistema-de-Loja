@@ -22,7 +22,6 @@ public class Main {
        produtos.forEach(produto -> {
            produto.exibirDetalhes();
            if (produto instanceof ProdutoFisico){
-               ((ProdutoFisico)produto).calcularFrete();
                System.out.println("Frete: R$ " +
                        String.format("%.2f", ((ProdutoFisico) produto).calcularFrete()));
            }
